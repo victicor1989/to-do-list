@@ -18,7 +18,7 @@ let addTask = () => {
         <label>
             <input type="checkbox">
             ${newValue}
-        </label>reiniciar
+        </label>
         <img src="./images/delete.png" class="closeBtn" alt="delete">
     </div>
     `
