@@ -1,0 +1,12 @@
+:root {
+    --orange: #d95550;
+    --light-orange: #dd6662;
+    --very-light-orange: #f8938b;
+    --gray: #55557b;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
