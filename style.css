@@ -90,3 +90,22 @@ form input[type="submit"]:hover {
     color: var(--very-light-orange);
     text-align: center;
 }
+
+#reiniciar {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 540px;
+    color: var(--white);
+    background-color: var(--light-orange);
+    border: none;
+    border-radius: 40px;
+    margin-top: 40px;
+    font-size: 1.0em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#reiniciar:hover {
+    cursor: pointer;
+    background-color: var(--very-light-orange);
+}
