@@ -56,6 +56,7 @@ form input[type="submit"]:hover {
     background-color: var(--very-light-orange);
     cursor: pointer;
     color: var(--white);
+    border: 1px solid var(--very-light-orange);
 }
 
 .list-container {
@@ -91,11 +92,15 @@ form input[type="submit"]:hover {
     text-align: center;
 }
 
+.btnReload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #reiniciar {
     width: 160px;
     height: 40px;
-    position: absolute;
-    left: 540px;
     color: var(--white);
     background-color: var(--light-orange);
     border: none;
